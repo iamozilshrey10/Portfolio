@@ -22,7 +22,6 @@ def write_to_file(data):
 
 def write_to_csv(data):
 		with open("C:\\Users\\sarta\\Desktop\\Portfolio\\database.csv", newline='', mode='a') as database2:
-			
 			email = data["email"]
 			subject = data["subject"]
 			message = data["message"]
